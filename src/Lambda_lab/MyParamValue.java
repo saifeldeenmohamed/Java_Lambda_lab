@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lamda;
+package Lambda_lab;
 
 /**
  *
  * @author SaiF El-deen
  */
-public interface MyValue {
-    double getValue();
-    
+public interface MyParamValue {
+    double getValue(double v);
 }
